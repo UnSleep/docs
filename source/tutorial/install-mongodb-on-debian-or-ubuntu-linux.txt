@@ -70,7 +70,7 @@ to import the `10gen public GPG Key <http://docs.mongodb.org/10gen-gpg-key.asc>`
    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
 Create a the ``/etc/apt/sources.list.d/10gen.list`` file and include
-the following line for the 10gen repository.
+the following line for the 10gen repository. You can also do it directly in the main list located at /etc/apt/sources.list if you area having problems.
 
 If you use an Ubuntu version with "Upstart" (i.e. any since version
 9.10 "Karmic,") or are running with Upstart on Debian, use the
